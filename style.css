@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    width: 100%;
+    padding: 40px;
+    background-color: black;
+}
+
+section .esas {
+    width: 30%;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 0.3cm;
+    border: 1px solid gainsboro;
+}
+
+section .esas .asagi {
+    padding: 30px;
+    border-bottom: 0.2cm;
+    border: 1px solid gainsboro;
+    border-bottom-right-radius: 0.2cm;
+    border-bottom-left-radius: 0.2cm;
+}
+
+section .esas .asagi h1 {
+    text-align: center;
+}
+
+section .esas .line {
+    width: 100%;
+    height: 40px;
+    background-color: #FFDC40;
+    border-top-right-radius: 0.2cm;
+    border-top-left-radius: 0.2cm;
+}
+
+section .esas .asagi .nese {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section .esas .asagi .items {
+    border: 1px solid gainsboro;
+    border-radius: 0.2cm;
+    margin-top: 20px;
+    padding: 5px 10px 10px 10px;
+}
+
+section .esas .asagi .items .item {
+    display: flex;
+    margin-top: 7px;
+    justify-content: space-between;
+}
+
+section .esas .asagi .items .item i {
+    padding: 10px 8px 4px 8px;
+    height: 40px;
+    border: 2px solid gainsboro;
+    border-radius: 100%;
+    cursor: pointer;
+    color: gainsboro;
+    margin-left: 10px;
+}
+
+section .esas .asagi .items .item i:hover {
+    background-color: #9953f1;
+    border-color: #9953f1;
+    color: white;
+}
+
+section .esas .asagi .div1 {
+    position: relative;
+    margin-top: 20px;
+}
+
+section .esas .asagi .div1 input {
+    border-radius: 0.2cm;
+    width: 100%;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    display: block;
+}
+
+section .esas .asagi .div1 div {
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+}
+
+section .esas .asagi .div1 div .fa-plus {
+    position: absolute;
+    left: 25%;
+    top: 0px;
+    border: 2px solid gainsboro;
+    padding: 20px;
+    border-radius: 100%;
+    border: none;
+    background-color: #9953f1;
+}
+
+section .esas .asagi .div1 button {
+    padding: 20px 40px 20px 65px;
+    color: white;
+    border-radius: 0.7cm;
+    background-color: #833ae0;
+    border: none;
+    cursor: pointer;
+}
+
+section .esas .asagi .div1 .add {
+    display: flex;
+    position: relative;
+}
+
+.fa-arrow-up {
+    cursor: pointer;
+}
+
+section .esas .asagi .div1 .add i {
+    position: absolute;
+    color: black;
+    right: 0px;
+    top: 0px;
+    padding: 11px 19px 15px 15px;
+    cursor: pointer;
+}
+
+section .esas .asagi .items .item span {
+    margin-right: 20px;
+}
+
+section .divide {
+    display: flex;
+    margin-top: 6px;
+}
+
+.fa-arrow-down {
+    cursor: pointer;
+}
+
+.item{
+    overflow-x: auto;
+}
