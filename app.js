@@ -20,7 +20,7 @@ document.querySelector("section .esas .asagi .div1 button").addEventListener("cl
             <i onclick="remove(this)" class="fa-solid fa-x"></i>
         </div>
         `);
-        arr.push(document.querySelector("section .esas .asagi .div1 input").value);
+        arr.push(document.querySelector("section .esas .asagi .div1 input").value.trim());
         document.querySelector("section .esas .asagi .div1 input").value = "";
         document.querySelector("section .esas .asagi .div1 .add").style.display = "none";
     }
